@@ -41,3 +41,5 @@ for produto in produtos:
         print(f'Enviar {produto} para setor de bebidas alcoolicas')
     elif ehdacategoria(produto,'BSA'):
         print(f'Enviar {produto} para setor de bebidas não alcoolicas')
+
+print('Meus produtos são :', produtos)
