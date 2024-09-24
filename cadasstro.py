@@ -37,9 +37,9 @@ for produto in produtos:
         #print(f'Enviar {produto} para setor de bebidas alcoolicas')
     #elif  naoalcoolico(produto):
         #print(f'Enviar {produto} para setor de bebidas não alcoolicas')
-    if ehdacategoria(produto,'BEB'):
+    if ehdacategoria(produto,'BEB'):     
         print(f'Enviar {produto} para setor de bebidas alcoolicas')
     elif ehdacategoria(produto,'BSA'):
         print(f'Enviar {produto} para setor de bebidas não alcoolicas')
-
-print('Meus produtos são :', produtos)
+qtd_produtos = len(produtos)
+print('Meus produtos são :', produtos ,'e a quantidade é de ', qtd_produtos ,sep='\n')
